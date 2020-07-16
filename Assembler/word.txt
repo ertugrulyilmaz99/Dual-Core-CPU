@@ -1,0 +1,8 @@
+r e t EQU 0 # This i s the memory l o c a t i o n
+# where the r e s u l t i s s t o r e d .
+LDI 5 # Pl a c e s number t o be squ a red i n t o ACC ( assume 5 )
+STR 1 # S t o r e 5 i n t o memory s o i t can be m u l t i p l i e d .
+MUL 1
+STR r e t # S t o r e r e s u l t i n t o memory l o c a t i o n 0
+LDI 0 # Stop the computer .
+BRZ 0

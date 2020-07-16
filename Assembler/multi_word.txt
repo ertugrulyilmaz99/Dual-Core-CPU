@@ -1,0 +1,8 @@
+LDI 0 1 # Load f i r s t elemen t o f f i r s t v e c t o r t o c o r e 0 .
+LDI 1 2 # Load sec ond elemen t o f mat rix t o c o r e 1 .
+STR X 0 # S t o r e the elemen t t o c o r e c a c h e s a d d r e s s 0 .
+LDI 0 3 # Load the f i r s t elemen t o f sec ond v e c t o r t o c o r e 0 .
+LDI 1 4 # Load the sec ond elemen t o f sec ond v e c t o r t o c o r e 1 .
+ADD X 0 # Add f i r s t / sec ond el em e n t s o f the both v e c t o r s .
+STR X 1 # S t o r e the a d d i t i o n s
+MOV 1 1 2 # Move the a d di ti o n r e s u l t from c o r e 1 c ache t o c o r e 0 c ache .
